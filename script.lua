@@ -5,7 +5,7 @@ local win = lib:Window("Arsenal Procom",Color3.fromRGB(44, 120, 224), Enum.KeyCo
 local tab = win:Tab("Combat Tab")
 
 tab:Button("Silent Aim", function()
-    loadstring(game:HttpGet("https://pastebin.com/cgZcnTNq"))()
+    loadstring(game:HttpGet("https://pastebin.com/raw/tn7ZUifZ"))()
 end)
 
 local Universal = win:Tab("Universal")
@@ -18,7 +18,6 @@ end)
 local Visuals = win:Tab("Visuals")
 Visuals:Button("Esp", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ic3w0lf22/Unnamed-ESP/master/UnnamedESP.lua"))()
-end)
 
 local changeclr = win:Tab("UI Settings")
 
